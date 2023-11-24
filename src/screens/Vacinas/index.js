@@ -42,13 +42,6 @@ export default function Vacinas({ route }) {
         Alert.alert("Carteira de vacinação atualizada!")
     }
 
-    // function status(){
-    //     console.log(vacinas[1])
-    //     vacinas.forEach((vacina) => {
-    //         console.log(vacina.status)
-    //     })
-    // }
-
     const ListaVacinas = (renderData) => {
         return(
             <FlatVacinas
