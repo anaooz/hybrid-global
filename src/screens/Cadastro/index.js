@@ -54,7 +54,7 @@ export default function Cadastro({ navigation }) {
                 onChangeText={setNome}
             />
             <Input
-                placeholder="cpf"
+                placeholder="CPF"
                 value={cpf}
                 onChangeText={setCpf}
             />

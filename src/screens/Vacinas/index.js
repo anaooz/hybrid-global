@@ -5,6 +5,7 @@ import { updateDoc, doc } from "firebase/firestore";
 import BouncyCheckbox from "react-native-bouncy-checkbox";
 import { useState } from "react";
 import { data } from "./vacinas";
+import { Alert } from "react-native";
 
 export default function Vacinas({ route }) {
     const {id} = route.params.params
@@ -38,6 +39,7 @@ export default function Vacinas({ route }) {
                 covid19: vacinas[9].status
             }
         })
+        Alert.alert("Carteira de vacinação atualizada!")
     }
 
     // function status(){

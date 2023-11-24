@@ -24,6 +24,8 @@ export default function Login({ navigation }) {
             setContaId(doc.id)
             setUsuarioEncontrado(true)
         })
+        
+        if(!usuarioEncontrado) Alert.alert("Usuário não encontrado", "E-mail ou senha incorretos.")
     }
 
     useEffect(() => {

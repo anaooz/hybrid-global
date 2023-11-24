@@ -11,7 +11,7 @@ export const Itens = styled.View`
     background-color: #FFFFFF;
     border-radius: 20px;
     align-items: center;
-    padding: 10% 30%;
+    padding: 5% 30%;
     margin: 10px 0px;
 `
 
